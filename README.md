@@ -12,7 +12,7 @@ IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and 
 
 * `apt install git -y`
 
-* `git clone https://github.com/Fabelt14/Fabeltracker/IP-Tracer.git`
+* `git clone https://github.com/Fabelt14/Fabeltracker.git`
 
 * `cd IP-Tracer`
 
