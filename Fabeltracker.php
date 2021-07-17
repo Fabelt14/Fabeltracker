@@ -9,10 +9,11 @@ function logo() {
   echo <<<EOL
 \033[01;33m
 \033[01;31m      _\033[01;33m ____    _
-     \033[01;31m(_)\033[01;33m  _ \  | |_ _ __ __ _  ___ ___ _ __
-     | | |_) | | __| '__/ _` |/ __/ _ \ '__|
-     | |  __/  | |_| | | (_| | (_|  __/ |
-     |_|_|      \__|_|  \__,_|\___\___|_|
+     \033[01;31m(_)\033[01;33m  _____     _          _ _                  _
+|  ___|_ _| |__   ___| | |_ _ __ __ _  ___| | __
+| |_ / _` | '_ \ / _ \ | __| '__/ _` |/ __| |/ /
+|  _| (_| | |_) |  __/ | |_| | | (_| | (__|   <
+|_|  \__,_|_.__/ \___|_|\__|_|  \__,_|\___|_|\_\
    \033[01;37m}\033[01;31m----------------------------------------\033[01;37m{
 }\033[01;31m-------------- \033[01;32mTrack IPLocation\033[01;31m --------------\033[01;37m{
    }\033[01;31m----------------------------------------\033[01;37m{
@@ -36,8 +37,8 @@ function upd() {
   logo();
   echo "\n\033[01;32mUpdating IP-Tracer.........\033[01;37m\n\n";
   sleep(1);
-  system("cd ~/ && git clone https://github.com/Fabelt14/Fabeltracker/IP-Tracer.git");
-  system("cd ~/ && sudo git clone https://github.com/Fabelt14/Fabeltracker/IP-Tracer.git");
+  system("cd ~/ && git clone https://github.com/Fabelt14/Fabeltracker.git");
+  system("cd ~/ && sudo git clone https://github.com/Fabelt14/Fabeltracker.git");
   system("cd ~/IP-Tracer && sh install");
   logo();
   echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
